@@ -1,0 +1,79 @@
+body {
+    background-color: #f4d7ff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 24px;
+}
+
+.balloons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.balloon {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+}
+
+.balloon-shape {
+    width: 50px;
+    height: 70px;
+    background-color: #ff69b4;
+    border-radius: 50%;
+    position: relative;
+    transform: translate(0, -40px);
+}
+
+.balloon-string {
+    width: 4px;
+    height: 100px;
+    background-color: #f381e8;
+    position: relative;
+    top: -10px;
+    left: 23px;
+    transform: rotate(-15deg);
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+}
