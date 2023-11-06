@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Surprise</title>
+</head>
+<body>
+    <h1>Enter the Secret Key</h1>
+    <input type="password" id="password" placeholder="Enter the secret key">
+    <button onclick="checkPassword()">Unlock</button>
+    <p id="message"></p>
+
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            if (password === "5111998") {
+                document.getElementById("message").innerText = "Congratulations! You got 100 crores as a gift for your birthday!";
+            } else {
+                document.getElementById("message").innerText = "Incorrect password. Try again.";
+            }
+        }
+    </script>
+</body>
+</html>
