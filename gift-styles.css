@@ -46,6 +46,31 @@ p {
     transform-origin: 50% 50%;
 }
 
+.money-bag-1 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 10%;
+}
+
+.money-bag-2 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 20%;
+}
+
+.money-bag-3 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 30%;
+}
+
+.money-bag-4 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 40%;
+}
+
+.money-bag-5 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 50%;
+}
+
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
