@@ -39,7 +39,7 @@ p {
 .money-bag {
     width: 50px;
     height: 50px;
-    background-image: url('smile-girl.jpg');
+    background-image: url('money-bag.png');
     background-size: cover;
     position: absolute;
     animation: fall 4s linear infinite;
