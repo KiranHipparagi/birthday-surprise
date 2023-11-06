@@ -34,6 +34,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
+    animation: fall 4s linear infinite;
 }
 
 .money-bag {
@@ -58,8 +59,6 @@ p {
 
 .cake {
     margin-top: 20px;
-    position: relative;
-    display: block;
 }
 
 .cake img {
