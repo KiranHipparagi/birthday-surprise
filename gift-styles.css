@@ -2,7 +2,7 @@ body {
     background-color: #f4d7ff;
     text-align: center;
     font-family: Arial, sans-serif;
-    overflow: hidden;
+    overflow: auto; /* Enable scrolling */
     margin: 0;
     padding: 0;
 }
@@ -59,6 +59,7 @@ p {
 
 .cake {
     margin-top: 20px;
+    display: block;
 }
 
 .cake img {
