@@ -58,8 +58,10 @@ p {
 
 .cake {
     margin-top: 20px;
+    position: relative;
+    display: block;
 }
 
 .cake img {
-    max-width: 50%;
+    max-width: 100%;
 }
