@@ -3,15 +3,13 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 100%;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     position: relative;
 }
 
@@ -56,4 +54,12 @@ p {
 @keyframes fall {
     0% { top: -50px; opacity: 1; }
     100% { top: 100%; opacity: 0; }
+}
+
+.cake {
+    margin-top: 20px;
+}
+
+.cake img {
+    max-width: 100%;
 }
