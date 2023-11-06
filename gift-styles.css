@@ -71,6 +71,25 @@ p {
     left: 50%;
 }
 
+.money-bag-6 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 60%;
+}
+
+.money-bag-7 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 70%;
+}
+
+.money-bag-8 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 80%;
+}
+
+.money-bag-9 {
+    animation: fall 4s linear infinite, float 4s ease-in-out infinite;
+    left: 90%;
+}
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
